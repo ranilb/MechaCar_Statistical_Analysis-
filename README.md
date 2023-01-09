@@ -32,7 +32,7 @@ __As the next step, the summary table was obtained and it is shown below:__
 
 <img width="466" alt="Screen Shot 2023-01-08 at 11 12 47 PM" src="https://user-images.githubusercontent.com/112113327/211240054-55633d04-918f-442b-aead-3cb9f4f299d7.png">
 
-According to the summary statistics, p-values of vehicle length, ground clearance and the intercept are smallar than even 1% significance level. Therefore, those variables are statistically unlikely to provide random amounts of variance to the linear model and hence they provide significance impact on miles per gallon (mpg) of the vehicle.
+According to the summary statistics, __ONLY__ p-values of vehicle length, ground clearance and the intercept are smallar than even 1% significance level. Therefore, those variables are statistically unlikely to provide random amounts of variance to the linear model and hence they provide significance impact on miles per gallon (mpg) of the vehicle. Other three variables are redundant in this model.
 
    It can be observed that the intercept is statistically significant on the __mpg__. That means there may be some other variables and factors that contribute to the variation in __mpg__ that have not been included in our model.
    
