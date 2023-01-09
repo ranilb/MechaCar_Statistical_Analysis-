@@ -11,7 +11,7 @@ In this work, the data analytics team do the following:
 * Design a statistical study to compare vehicle performance of the MechaCar vehicles against vehicles from other manufacturers. 
 
 
-## Part 1: Linear Regression to Predict MPG
+## Linear Regression to Predict MPG
 ### About Data
 The MechaCar_mpg.csv dataset contains mpg test results for 50 prototype MechaCars. The MechaCar prototypes were produced using multiple design specifications to identify ideal vehicle performance. Multiple metrics, such as __vehicle length, vehicle weight, spoiler angle, drivetrain__, and __ground clearance__, were collected for each vehicle. The first ten rows of the data set is shown below:
 
@@ -39,7 +39,7 @@ According to the summary statistics, __ONLY__ p-values of vehicle length, ground
    In addition to the p-values, the coefficient of determination (r - squared value) is 71%. Therefore, the 71% of the predictions using this model would be accurate and hence the slope of the model can not be equal to zero.
 
 
-## Part 2: Create Visualizations for the Trip Analysis
+## Create Visualizations for the Trip Analysis
 ### About data
 The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
 
@@ -59,7 +59,7 @@ However, it can be observed that the data is from three different lots. Therefor
 According to the summary table, the variance for the lot 1 is 0.97 PSI and the variance for the lot 2 is 7.42 PSI. However, the variance for the lot 3 is 170.29 PSI and which is greater than 100. Therefore, the current manufacturing data meet this design specification for SOME manufacturing lots, but not all. This implies that the current manufacturing data does not meet this design specification for each manufacturing lot individually. 
 
 
-## Part 3: T-Tests on Suspension Coils
+## T-Tests on Suspension Coils
 In this section, a t-test was performed at the beginning to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch. The test results are show below. Note that the __log10__ transform was used to obtained more accurate solutions to avoid any skewness of the data.
 
 ### t-test (three lots vs population)
@@ -95,3 +95,5 @@ Last, t-test was performed to determine whether the mean of the lot 3 is statist
 
 In this test, the p-value is equal to 0.04 and it is smaller than 0.05 significance level. Hence the two means are statistically significant different. In otherwards, this lot have deviated from the regular requirements of the company even though the first two lots are within the requirements. 
 
+
+## Design a Study Comparing the MechaCar to the Competition
