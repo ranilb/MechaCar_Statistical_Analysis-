@@ -96,4 +96,18 @@ Last, t-test was performed to determine whether the mean of the lot 3 is statist
 In this test, the p-value is equal to 0.04 and it is smaller than 0.05 significance level. Hence the two means are statistically significant different. In otherwards, this lot have deviated from the regular requirements of the company even though the first two lots are within the requirements. 
 
 
-## Design a Study Comparing the MechaCar to the Competition
+## Study Design: MechaCar vs Competition
+If the manufacturer of the MechaCar vehicles wishes to compare and contrast their product with another competitor, we first need to look at the data that we have in ready to use. The data from the "MechaCar_mpg.csv" provides the information about __vehicle length, vehicle weight, spoiler angle, drivetrain, ground clearance__, and __mpg__. Also, The MechaCar "Suspension_Coil.csv" dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
+
+First and most important thing to compate between two products is the gas millage. To test that we need at least the gas milage of the competior for the comparson. Once we get the data, we can use a __pair t-test__ to compare samples from two different manufactures (populations) as two-sample t-tests are flexible and can be used to compare two samples, each from a different population.
+
+In a paired t-test, the means are determined from the difference between each paired observation. In this case, we use the difference between __mpg__ values of data from two different manufactures. As a result of this, t-test hypotheses are as follows:
+
+* H0 : The difference between paired observations is equal to zero.
+* Ha : The difference between paired observations is not equal to zero.
+
+Once we have data, we can rund the t-test and find out any significance differences between two products.
+
+Also, we have observed that the vehicle length and the ground clearance have a significant impact on vehicle millage. Therefore, it will be helpfull to collect vehicle length and ground clearance and test them using a pared t-test.
+
+Finally, if more data is available, more t-tests can be done for the variables vehicle weight, spoiler angle and  drivetrain as well.
