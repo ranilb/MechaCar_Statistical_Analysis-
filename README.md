@@ -37,3 +37,23 @@ According to the summary statistics, __ONLY__ p-values of vehicle length, ground
    It can be observed that the intercept is statistically significant on the __mpg__. That means there may be some other variables and factors that contribute to the variation in __mpg__ that have not been included in our model.
    
    In addition to the p-values, the coefficient of determination (r - squared value) is 71%. Therefore, the 71% of the predictions using this model would be accurate and hence the slope of the model can not be equal to zero.
+
+
+## Part 2: Create Visualizations for the Trip Analysis
+### About data
+The MechaCar Suspension_Coil.csv dataset contains the results from multiple production lots. In this dataset, the weight capacities of multiple suspension coils were tested to determine if the manufacturing process is consistent across production lots.
+
+## Summary Statistics on Suspension Coils
+### Total summary data table
+First, a total_summary dataframe was created to get the mean, median, variance, and standard deviation of the suspension coil’s PSI column. The resluts from the summary table is shown below:
+
+   <img width="418" alt="Screen Shot 2023-01-09 at 12 25 48 AM" src="https://user-images.githubusercontent.com/112113327/211246675-7697a868-8105-4b26-8e02-d1b63f0bc37b.png">
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. According to the summary table, the variance is 62.29 PSI and which is less than 100. Therefore, the current manufacturing data meet this design specification for all manufacturing lots in total.
+
+### Lot summary data table
+However, it can be observed that the data is from three different lots. Therefore, the data was grouped according to the group number and then the mean, median, variance, and standard deviation of the suspension coil’s PSI column computed for each group to see the consistancy between groups. The summary table is shown below:
+
+   <img width="614" alt="Screen Shot 2023-01-09 at 12 29 04 AM" src="https://user-images.githubusercontent.com/112113327/211247563-3b64b0c3-86a2-4956-ae6a-c03ff6ecc31b.png">
+
+According to the summary table, the variance for the lot 1 is 0.97 PSI and the variance for the lot 2 is 7.42 PSI. However, the variance for the lot 3 is 170.29 PSI and which is greater than 100. Therefore, the current manufacturing data meet this design specification for SOME manufacturing lots, but not all. This implies that the current manufacturing data does not meet this design specification for each manufacturing lot individually. 
