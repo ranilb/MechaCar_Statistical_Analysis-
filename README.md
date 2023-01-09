@@ -57,3 +57,6 @@ However, it can be observed that the data is from three different lots. Therefor
    <img width="614" alt="Screen Shot 2023-01-09 at 12 29 04 AM" src="https://user-images.githubusercontent.com/112113327/211247563-3b64b0c3-86a2-4956-ae6a-c03ff6ecc31b.png">
 
 According to the summary table, the variance for the lot 1 is 0.97 PSI and the variance for the lot 2 is 7.42 PSI. However, the variance for the lot 3 is 170.29 PSI and which is greater than 100. Therefore, the current manufacturing data meet this design specification for SOME manufacturing lots, but not all. This implies that the current manufacturing data does not meet this design specification for each manufacturing lot individually. 
+
+
+## Part 3: T-Tests on Suspension Coils
