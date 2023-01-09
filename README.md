@@ -60,3 +60,11 @@ According to the summary table, the variance for the lot 1 is 0.97 PSI and the v
 
 
 ## Part 3: T-Tests on Suspension Coils
+In this section, a t-test was performed at the beginning to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch. The test results are show below. Note that the __log10__ transform was used to obtained more accurate solutions.
+
+<img width="539" alt="Screen Shot 2023-01-09 at 9 48 06 AM" src="https://user-images.githubusercontent.com/112113327/211339879-6687bc3b-82fa-4ed0-8351-b18a81e1d3dc.png">
+
+
+According to the test results, the p-value is greater than 0.05. Therefore, it suggests that "fail to regect the alternative hepothesis" with 0.05 confidence level. That means there is a statistically significant difference between tru mean and the manufacturing lots.
+
+In the next step, three t-tests were performed to determine if each individual manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.Fir
