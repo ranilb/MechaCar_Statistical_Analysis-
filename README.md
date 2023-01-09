@@ -60,11 +60,38 @@ According to the summary table, the variance for the lot 1 is 0.97 PSI and the v
 
 
 ## Part 3: T-Tests on Suspension Coils
-In this section, a t-test was performed at the beginning to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch. The test results are show below. Note that the __log10__ transform was used to obtained more accurate solutions.
+In this section, a t-test was performed at the beginning to determine if all manufacturing lots are statistically different from the population mean of 1,500 pounds per square inch. The test results are show below. Note that the __log10__ transform was used to obtained more accurate solutions to avoid any skewness of the data.
 
+#### t-test (three lots vs population)
 <img width="539" alt="Screen Shot 2023-01-09 at 9 48 06 AM" src="https://user-images.githubusercontent.com/112113327/211339879-6687bc3b-82fa-4ed0-8351-b18a81e1d3dc.png">
 
 
-According to the test results, the p-value is greater than 0.05. Therefore, it suggests that "fail to regect the alternative hepothesis" with 0.05 confidence level. That means there is a statistically significant difference between tru mean and the manufacturing lots.
+According to the test results, the p-value is greater than 0.05. Therefore, it suggests that "fail to regect the null hepothesis" with 0.05 confidence level. That means there is no statistically significant difference between the true mean and the mean of the manufacturing lots.
 
-In the next step, three t-tests were performed to determine if each individual manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch.Fir
+In the next step, three t-tests were performed to determine if each individual manufacturing lot is statistically different from the population mean of 1,500 pounds per square inch. Note that the __log10__ transform was used to obtained more accurate solutions to avoid any skewness of the data.
+
+#### t-test (lot 1 vs population)
+First t-test was performed to determine whether the mean of the lot 1 is statistically different from the population mean of 1,500 pounds per square inch. The results are shown below:
+
+<img width="536" alt="ttest_lot1" src="https://user-images.githubusercontent.com/112113327/211346955-5e9d3f9c-0923-4676-b0eb-7dd3ea42705d.png">
+
+In this test, the p-value is approximately equal to 1 and hence the two means are statistically similar.
+
+
+
+#### t-test (lot 2 vs population)
+The second t-test was performed to determine whether the mean of the lot 2 is statistically different from the population mean of 1,500 pounds per square inch. The results are shown below:
+
+<img width="544" alt="ttest_lot2" src="https://user-images.githubusercontent.com/112113327/211362673-772157b0-5091-49b9-81af-6738c2f06ed8.png">
+
+In this test, the p-value is equal to 0.61 and it is greater than 0.05 significance level. Hence the two means are statistically similar.
+
+
+
+#### t-test (lot 3 vs population)
+Last, t-test was performed to determine whether the mean of the lot 3 is statistically different from the population mean of 1,500 pounds per square inch. The results are shown below:
+
+<img width="537" alt="ttest_lot3" src="https://user-images.githubusercontent.com/112113327/211363837-f30c762e-1c36-4123-a950-7f90f1eeec97.png">
+
+In this test, the p-value is equal to 0.04 and it is smaller than 0.05 significance level. Hence the two means are statistically significant different. In otherwards, this lot have deviated from the regular requirements of the company even though the first two lots are within the requirements. 
+
